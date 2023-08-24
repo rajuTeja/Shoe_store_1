@@ -1,0 +1,311 @@
+
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+    display: flex;
+    height:100vh;
+}
+
+.sidebar {
+    background-color: black;
+    width: 290px;
+    border-radius: 1rem;
+    margin-right: 8px;;
+
+}
+
+.main-content {
+    background-color: black;
+    flex: 1;
+    border-radius: 1rem;
+    padding: 0 8px 0 8px;
+    overflow: auto;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-options a {
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.nav-options i {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar {
+        background-color: #232323;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100px;
+        padding: 5px 10px;
+}
+
+.nav-options {
+    line-height: 25px;
+    opacity: 0.7;
+    padding: 8px 16px;
+}
+
+.nav-options:hover {
+    box-shadow: 4px 4px 10px grey;
+}
+
+
+.library {
+    border-radius: 16px;
+    margin-top: 10px;
+}
+
+
+
+.box {
+    height: 100vp;
+    width: 270px;
+    background-color: #232323;
+    border-radius: 1rem;
+    padding: 5px 10px; 
+}
+
+.box p {
+    font-size: 20px;
+    margin: 12px;
+    margin-left: 20px;
+}
+
+.box p:hover {
+    box-shadow: 4px 4px 10px grey;
+}
+
+.para {
+    margin-left: 110px;
+    margin-top: 26px;
+    font-size: 20px;
+}
+
+.social_media i {
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 26px;
+}
+
+.social_media i:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.ctrlbtn input {
+    border: none;
+    width: 450px;
+    border-radius: 100px;
+    background-color: white;
+    padding: 4px 12px;
+    font-weight: 700;
+    height: 25px;
+}
+
+.ctrlbtn i {
+    border: 2px solid white;
+    width: 20px;
+    height: 30px;
+    color: white;
+    margin-top: 8px;
+    border: none;
+    margin-left: 10px;
+}
+
+.ctrlbtn input:hover {
+    box-shadow: 4px 4px 5px white;
+}
+
+.badge {
+    border: none;
+    border-radius: 100px;
+    background-color: white;
+    padding: 4px 12px;
+    font-weight: 700;
+    height: 25px;
+    width: fit-content;
+}
+
+.explore {
+    border: none;
+    border-radius: 100px;
+    background-color: white;
+    padding: 4px 12px;
+    font-weight: 700;
+    height: 25px;
+    width: fit-content;
+}
+
+.Explore:hover {
+    box-shadow: 4px 4px 5px white;
+}
+
+.download {
+    border: none;
+    border-radius: 100px;
+    background-color: white;
+    padding: 4px 12px;
+    font-weight: 700;
+    height: 25px;
+    width: fit-content;
+}
+
+.Download:hover {
+    box-shadow: 4px 4px 5px white;
+}
+
+#user:hover {
+        box-shadow: 4px 4px 10px red;
+}
+
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+/* .ctrlbtn img {
+    margin-left: 8px;
+    height: 15px;
+    width: 15px;
+} */
+
+.premium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.premium button {
+    margin-right: 16px;
+}
+
+.premium #user {
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+    margin-right: 8px;
+}
+
+#download {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 800px){
+    .hide {
+        display: none;
+    }
+}
+
+.heading {
+    margin-left: 16px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+    
+}
+
+.card {
+    width: 200px;
+    border-radius: 8px;
+    padding: 20px;
+    height: 300px;
+    /* border-radius: 20px; */
+    background-color: #232323;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.card button {
+    margin: 3px;
+    background-color: black;
+    color: white;
+    margin-left: 6px;
+    margin-top: 3px;
+}
+
+.card button:hover {
+    box-shadow: 2px 2px 6px grey;
+    transition: all 1s ease-out 2s;
+    transform: scale(1);
+}
+
+.card-title {
+    font-weight: 700;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.card-info {
+    opacity: 1;
+    margin-left: 6px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    width:200px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+.line {
+    width: 94%;
+    height: 50%;
+    border-top: 2px solid grey;
+    margin-right: 14px;
+}
+
+.line button {
+   background-color: red;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 100px;
+   margin: 20px;
+   color: white;
+   box-shadow: 4px 4px 0 red;
+   transition: transform 0.2s, box-shadow 0.2s;
+   margin-top: 60px;
+   margin-left: 360px;
+}
+
+.line button:active {
+    transform: translateX(4px) translateY(4px);
+    box-shadow: 0 0 0 red;
+}
